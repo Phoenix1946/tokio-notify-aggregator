@@ -108,9 +108,9 @@ async fn main() {
 ```
 
 ## More Examples
-- Two Simple Notifiers: [Example here](./examples/multiple_simultaneous_notifiers.rs)
+- Two Simple Notifiers: [Example here](./examples/two_simple_notifiers.rs)
 
-- Multiple Simultaneous Notifiers: [Example here](./examples/two_simple_notifiers.rs)
+- Multiple Simultaneous Notifiers: [Example here](./examples/multiple_simultaneous_notifiers.rs)
 
 
 For more detailed usage and examples, refer to the documentation.
