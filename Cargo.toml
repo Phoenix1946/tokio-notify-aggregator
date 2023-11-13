@@ -1,11 +1,13 @@
 [package]
 name = "tokio-notify-aggregator"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "A tokio-based notify event aggregator"
 license = "MIT"
-
-
+repository = "https://github.com/Phoenix1946/tokio-notify-aggregator/"
+documentation = "https://docs.rs/tokio-notify-aggregator"
+readme = "README.md"
+keywords = ["tokio", "async", "notify"]
 
 [dependencies]
 tokio = { version = "1", features = ["sync", "rt-multi-thread", "macros"] }
