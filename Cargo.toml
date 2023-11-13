@@ -1,0 +1,14 @@
+[package]
+name = "tokio-notify-aggregator"
+version = "0.1.0"
+edition = "2021"
+description = "A tokio-based notify event aggregator"
+license = "MIT"
+
+
+
+[dependencies]
+tokio = { version = "1", features = ["sync", "rt-multi-thread", "macros"] }
+
+[dev-dependencies]
+tokio = { version = "1", features = ["full"] }
